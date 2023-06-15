@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>Salary Prediction</h1>
+        <form action='/predict' method="post">
+            <input type="text" name="experience" placeholder="experience" required="required" value="0"/><br><br>
+            <input type="text" name="Age" placeholder="Age" required="required" value="0"/><br><br>
+            <button type="submit" value="Submit" >Predict Salary</button>
+        </form>
+
+        <br>
+        <br>
+        <p>Salary of the employe {{ Prediction_text }}</p>
+    </body>
+</html>
