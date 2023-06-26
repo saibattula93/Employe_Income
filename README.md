@@ -1,1 +1,1 @@
-## Determine salary of a Employes
+## Predicting the Salary of an Employes uisng Regression
